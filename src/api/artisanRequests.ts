@@ -19,6 +19,7 @@ export interface ArtisanRequest {
   user_name: string;
   user_phone: string;
   user_email: string;
+  user_photo_url: string | null;
   description: string;
   /** Liste des métiers (StringRelatedField → noms) */
   metiers: string[];
